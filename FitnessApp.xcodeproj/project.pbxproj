@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		185451062C5630A500F33F47 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185451052C5630A500F33F47 /* ActivityCard.swift */; };
+		1854510B2C57876100F33F47 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854510A2C57876000F33F47 /* WorkoutCard.swift */; };
 		189C98A02C53C7B60026B25A /* FitnessTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C989F2C53C7B60026B25A /* FitnessTabView.swift */; };
 		189C98A22C53C86D0026B25A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C98A12C53C86D0026B25A /* HomeView.swift */; };
 		189C98A42C53C8810026B25A /* HistoricDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C98A32C53C8810026B25A /* HistoricDataView.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		185451052C5630A500F33F47 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		1854510A2C57876000F33F47 /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
 		189C989F2C53C7B60026B25A /* FitnessTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTabView.swift; sourceTree = "<group>"; };
 		189C98A12C53C86D0026B25A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		189C98A32C53C8810026B25A /* HistoricDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricDataView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 				189C98A52C53E16D0026B25A /* ProgressCircleView.swift */,
 				185451052C5630A500F33F47 /* ActivityCard.swift */,
 				189C98A12C53C86D0026B25A /* HomeView.swift */,
+				1854510A2C57876000F33F47 /* WorkoutCard.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189C98A02C53C7B60026B25A /* FitnessTabView.swift in Sources */,
+				1854510B2C57876100F33F47 /* WorkoutCard.swift in Sources */,
 				189C98A62C53E16D0026B25A /* ProgressCircleView.swift in Sources */,
 				189C98A22C53C86D0026B25A /* HomeView.swift in Sources */,
 				189C98A42C53C8810026B25A /* HistoricDataView.swift in Sources */,
