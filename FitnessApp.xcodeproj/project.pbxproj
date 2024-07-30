@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		185451062C5630A500F33F47 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185451052C5630A500F33F47 /* ActivityCard.swift */; };
 		1854510B2C57876100F33F47 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854510A2C57876000F33F47 /* WorkoutCard.swift */; };
+		1854510D2C58F41000F33F47 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854510C2C58F41000F33F47 /* HomeViewModel.swift */; };
+		185451122C59603C00F33F47 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185451112C59603C00F33F47 /* Activity.swift */; };
+		185451142C59607F00F33F47 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185451132C59607F00F33F47 /* Workout.swift */; };
 		189C98A02C53C7B60026B25A /* FitnessTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C989F2C53C7B60026B25A /* FitnessTabView.swift */; };
 		189C98A22C53C86D0026B25A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C98A12C53C86D0026B25A /* HomeView.swift */; };
 		189C98A42C53C8810026B25A /* HistoricDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C98A32C53C8810026B25A /* HistoricDataView.swift */; };
@@ -22,6 +25,9 @@
 /* Begin PBXFileReference section */
 		185451052C5630A500F33F47 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
 		1854510A2C57876000F33F47 /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
+		1854510C2C58F41000F33F47 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		185451112C59603C00F33F47 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		185451132C59607F00F33F47 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		189C989F2C53C7B60026B25A /* FitnessTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTabView.swift; sourceTree = "<group>"; };
 		189C98A12C53C86D0026B25A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		189C98A32C53C8810026B25A /* HistoricDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricDataView.swift; sourceTree = "<group>"; };
@@ -47,12 +53,39 @@
 		185451092C56778300F33F47 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				189C98A52C53E16D0026B25A /* ProgressCircleView.swift */,
-				185451052C5630A500F33F47 /* ActivityCard.swift */,
-				189C98A12C53C86D0026B25A /* HomeView.swift */,
-				1854510A2C57876000F33F47 /* WorkoutCard.swift */,
+				185451102C595F4100F33F47 /* View */,
+				1854510F2C595F1F00F33F47 /* Models */,
+				1854510E2C595F0500F33F47 /* ViewModels */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		1854510E2C595F0500F33F47 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1854510C2C58F41000F33F47 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1854510F2C595F1F00F33F47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				185451112C59603C00F33F47 /* Activity.swift */,
+				185451132C59607F00F33F47 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		185451102C595F4100F33F47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185451052C5630A500F33F47 /* ActivityCard.swift */,
+				189C98A52C53E16D0026B25A /* ProgressCircleView.swift */,
+				1854510A2C57876000F33F47 /* WorkoutCard.swift */,
+				189C98A12C53C86D0026B25A /* HomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		18EEB21F2C536D1000C51C16 = {
@@ -163,10 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185451122C59603C00F33F47 /* Activity.swift in Sources */,
 				189C98A02C53C7B60026B25A /* FitnessTabView.swift in Sources */,
+				1854510D2C58F41000F33F47 /* HomeViewModel.swift in Sources */,
 				1854510B2C57876100F33F47 /* WorkoutCard.swift in Sources */,
 				189C98A62C53E16D0026B25A /* ProgressCircleView.swift in Sources */,
 				189C98A22C53C86D0026B25A /* HomeView.swift in Sources */,
+				185451142C59607F00F33F47 /* Workout.swift in Sources */,
 				189C98A42C53C8810026B25A /* HistoricDataView.swift in Sources */,
 				185451062C5630A500F33F47 /* ActivityCard.swift in Sources */,
 				18EEB22E2C536D1000C51C16 /* ContentView.swift in Sources */,
